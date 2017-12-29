@@ -1,0 +1,21 @@
+<mvc:View controllerName="com.testsales.controller.View1" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m">
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<Button
+      text="Say Hello"
+      press="onShowHello"/>
+      
+      		<VBox>
+			<Text text="{SoId}" />
+			<Text text="{GrossAmount}" />
+			<Text text="{CreatedAt}" />
+			<Text text="{CreatedByBp}" />
+		</VBox>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
